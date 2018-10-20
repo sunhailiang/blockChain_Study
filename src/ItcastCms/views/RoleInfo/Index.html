@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>角色管理</title>
+    <script type="text/javascript" src="/static/js/jquery.js"></script>
+    <script type="text/javascript" src="/static/js/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="/static/js/easyui-lang-zh_CN.js"></script>
+    <link href="/static/css/themes/default/easyui.css" rel="stylesheet" />
+    <link href="/static/css/themes/icon.css" rel="stylesheet" />
+    <script type="text/javascript">
+        $(function () {
+    $("#addDiv").css("display","none");
+            loadData()
+            $("#setRoleDiv").css("display","none");
+        })
+        function loadData() {
+            $('#tt').datagrid({
+                url: '/Admin/RoleInfo/GetRoleInfo',
+                title: '角色数据表格',
+                width: 700,
+                height: 400,
+                fitColumns: true, //列自适应
+                nowrap: false,
+                idField: 'Id',//主键列的列明
+                loadMsg: '正在加载角色的信息...',
+                pagination: true,//是否有分页
+                singleSelect: false,//是否单行选择
+                pageSize: 5,//页大小，一页多少条数据
+                pageNumber: 1,//当前页，默认的
+                pageList: [5, 10, 15],
+                queryParams: {},//往后台传递参数
+                columns: [[//c.UserName, c.UserPass, c.Email, c.RegTime
+                    { field: 'ck', checkbox: true, align: 'left', width: 50 },
+                    { field: 'Id', title: '编号', width: 80 },
+                    { field: 'RoleName', title: '角色', width: 120 },
+
+                    { field: 'Remark', title: '备注', width: 120 },
+                    {
+                        field: 'AddDate', title: '时间', width: 80, align: 'right',
+                        formatter: function (value, row, index) {
+                            return  value.split("T")[0]
+                        }
+                    }
+                ]],
+                toolbar: [{
+                    id: 'btnDelete',
+                    text: '删除',
+                    iconCls: 'icon-remove',
+                    handler: function () {
+
+
+                    }
+                }, {
+                    id: 'btnAdd',
+                    text: '添加',
+                    iconCls: 'icon-add',
+                    handler: function () {
+
+                        ShowAddRole();
+                    }
+                }, {
+                    id: 'btnEdit',
+                    text: '编辑',
+                    iconCls: 'icon-edit',
+                    handler: function () {
+
+
+                    }
+                }, {
+                    id: 'btnSetRoleAction',
+                    text: '为角色分配权限',
+                    iconCls: 'icon-edit',
+                    handler: function () {
+                        setRoleAction();
+
+                    }
+                }],
+            });
+        }
+        //为角色分配权限
+        function setRoleAction() {
+            var rows = $('#tt').datagrid('getSelections');
+            if ( rows.length!= 1) {//判断是否选择了，如果没有选择长度为0
+                //alert("请选择要修改的商品！");
+                $.messager.alert("提醒", "你会不会给角色分配权限!", "error");
+                return;
+            }
+            $("#setRoleActionFrame").attr("src","/Admin/RoleInfo/ShowRoleAction?roleId="+rows[0].Id);
+            $("#setRoleDiv").css("display","block");
+            $("#setRoleDiv").dialog({
+                title: '为角色分配权限信息',
+                width: 300,
+                height: 300,
+                collapsible: true, //可折叠
+                maximizable: true, //最大化
+                resizable: true,//可缩放
+                modal: true,//模态，表示只有将该窗口关闭才能修改页面中其它内容
+                buttons: [{ //按钮组
+                    text: 'Ok',//按钮上的文字
+                    iconCls: 'icon-ok',
+                    handler: function () {
+                        var childWindow=$("#setRoleActionFrame")[0].contentWindow;
+                        childWindow.SubForm();
+                    }
+                }, {
+                    text: 'Cancel',
+                    handler: function () {
+                        $('#setRoleDiv').dialog('close');
+                    }
+                }]
+            });
+
+        }
+
+        //展示添加页面。
+        function   ShowAddRole() {
+            $("#addFrmae").attr("src","/Admin/RoleInfo/ShowAddRole");
+            $("#addDiv").css("display","block");
+            $("#addDiv").dialog({
+                title: '添加角色信息',
+                width: 300,
+                height: 300,
+                collapsible: true, //可折叠
+                maximizable: true, //最大化
+                resizable: true,//可缩放
+                modal: true,//模态，表示只有将该窗口关闭才能修改页面中其它内容
+                buttons: [{ //按钮组
+                    text: 'Ok',//按钮上的文字
+                    iconCls: 'icon-ok',
+                    handler: function () {
+//window
+                       var childWindow= $("#addFrmae")[0].contentWindow//获取了ifrmae中的子窗体的window对象。
+                        childWindow.SubForm()//调用子窗体中的方法。
+                    }
+                }, {
+                    text: 'Cancel',
+                    handler: function () {
+                        $('#addDiv').dialog('close');
+                    }
+                }]
+            });
+
+        }
+        //添加完后调用该方法。
+        function AfterAdd(data) {
+            if(data.flag=="ok"){
+                $('#addDiv').dialog('close');
+                $('#tt').datagrid('reload');
+            }
+
+        }
+        //为角色分配完权限后调用
+        function ParentAfterSet(data) {
+            if(data.flag=="ok"){
+                $('#setRoleDiv').dialog('close');
+                $.messager.alert("提示","权限分配成功","info");
+            }
+        }
+    </script>
+</head>
+<body>
+<table id="tt" style="width: 700px;" title="标题，可以使用代码进行初始化，也可以使用这种属性的方式" iconcls="icon-edit">
+</table>
+
+<div id="addDiv">
+    <iframe id="addFrmae" frameborder="0" width="100%" height="100%"></iframe>
+</div>
+
+<div id="setRoleDiv">
+    <iframe id="setRoleActionFrame" frameborder="0" width="100%" height="100%"></iframe>
+</div>
+</body>
+</html>

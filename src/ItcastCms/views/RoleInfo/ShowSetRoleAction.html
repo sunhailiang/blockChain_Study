@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>为角色分配权限</title>
+    <script type="text/javascript" src="/static/js/jquery.js"></script>
+    <script type="text/javascript" src="/static/js/jquery.unobtrusive-ajax.min.js"></script>
+    <script type="text/javascript">
+        function SubForm() {
+            $("#setForm").submit();
+        }
+        function AfterSet(data) {
+            window.parent.ParentAfterSet(data)
+        }
+    </script>
+</head>
+<body>
+为角色 <span style="font-size:14px;color:red;font-weight: bolder">{{.roleInfo.RoleName}}</span>分配权限
+<form data-ajax="true" data-ajax-method="post" data-ajax-success="AfterSet" data-ajax-url="/Admin/RoleInfo/SetRoleAction" id="setForm">
+    <input type="hidden" value="{{.roleInfo.Id}}" name="roleId">
+{{range .allActions}}
+      {{if checkRoleAction $.roleExtActions .Id}}
+      <input type="checkbox" checked="checked" name="cba_{{.Id}}">{{.ActionInfoName}}
+           {{else}}
+      <input type="checkbox" name="cba_{{.Id}}">{{.ActionInfoName}}
+        {{end}}
+
+{{end}}
+</form>
+</body>
+</html>

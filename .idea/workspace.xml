@@ -1,0 +1,1093 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="83fa5712-6ef4-4b8d-9e35-f05038596ae3" name="默认的" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/go$go_test_demo_day8_test.out" NAME="go test demo/day8/test Coverage Results" MODIFIED="1531485270176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="go" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="blockChain.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/就业班/自主练习/区块链/day01/demo01/blockChain.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3075">
+              <caret line="131" column="29" selection-start-line="131" selection-start-column="29" selection-end-line="131" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="block.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/就业班/自主练习/区块链/day01/demo01/block.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2200">
+              <caret line="95" selection-start-line="95" selection-end-line="95" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlockChainIterator.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/就业班/自主练习/区块链/day01/demo01/BlockChainIterator.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="950">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
+              <folding>
+                <element signature="e#14#57#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wallets.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/就业班/自主练习/区块链/day01/demo01/wallets.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1350">
+              <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wallet.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/就业班/自主练习/区块链/day01/demo01/wallet.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1325">
+              <caret line="62" selection-start-line="62" selection-end-line="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="transaction.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/就业班/自主练习/区块链/day01/demo01/transaction.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16">
+              <caret line="143" column="41" selection-start-line="143" selection-start-column="35" selection-end-line="143" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="proofOfWork.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/就业班/自主练习/区块链/day01/demo01/proofOfWork.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1500">
+              <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="commonCli.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/就业班/自主练习/区块链/day01/demo01/commonCli.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5">
+              <caret line="105" column="49" selection-start-line="105" selection-start-column="39" selection-end-line="105" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cli.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/就业班/自主练习/区块链/day01/demo01/cli.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1125">
+              <caret line="49" column="35" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/就业班/自主练习/密码学/数字签名/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2525">
+              <caret line="110" column="11" selection-start-line="110" selection-start-column="11" selection-end-line="110" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="Go Application" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>setRoleActionFrame</find>
+      <find>&quot;</find>
+      <find>&quot;&quot;</find>
+      <find>NewCoinbaseTX</find>
+      <find>FindSuitable</find>
+      <find>check</find>
+      <find>che</find>
+      <find>Create</find>
+      <find>Checksum</find>
+      <find>output.PublicKeyHash</find>
+      <find>或许这个才是对的?</find>
+      <find>tototo</find>
+      <find>已经不对了</find>
+      <find>Lock</find>
+      <find>已经不对了？</find>
+      <find>不存在此交易</find>
+      <find>NewUTXOutput</find>
+      <find>FindUTXOTransactions</find>
+      <find>var total float64 = 0</find>
+      <find>这是个什么玩意儿？</find>
+      <find>接收到了啥？</find>
+      <find>交易数据</find>
+      <find>加密之前</find>
+      <find>FindTransaction</find>
+      <find>AddB</find>
+      <find>交易签名结果:</find>
+      <find>挖矿不给钱啊？</find>
+      <find>挖矿成功YES :</find>
+      <find>FindSuitableUTXOs</find>
+      <find>printChain</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>icons</replace>
+      <replace>../img/icons</replace>
+      <replace>../img/images</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>E:\go\src\study</dir>
+      <dir>E:\go\src\demo</dir>
+      <dir>E:\go\src</dir>
+      <dir>E:\go\src\就业班\自主练习\区块链\day01</dir>
+      <dir>E:\go\src\就业班\自主练习\区块链\day01\demo01</dir>
+    </dirStrings>
+  </component>
+  <component name="GOROOT" path="C:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/go_language_learning_code" />
+  </component>
+  <component name="GoLibraries">
+    <option name="urls">
+      <list>
+        <option value="file://$PROJECT_DIR$" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/就业班/自主练习/DES_PWD/DES加密解密.go" />
+        <option value="$PROJECT_DIR$/src/就业班/自主练习/密码学/3DES_PWD/ThreeDES.go" />
+        <option value="$PROJECT_DIR$/src/就业班/自主练习/密码学/3DES_PWD/main.go" />
+        <option value="$PROJECT_DIR$/src/就业班/自主练习/密码学/ASC_PWD/main.go" />
+        <option value="$PROJECT_DIR$/src/就业班/自主练习/密码学/ASC_PWD/ASC.go" />
+        <option value="$PROJECT_DIR$/src/就业班/自主练习/密码学/AES_PWD/main.go" />
+        <option value="$PROJECT_DIR$/src/就业班/自主练习/密码学/RSA_KVP_PWD.go" />
+        <option value="$PROJECT_DIR$/src/就业班/自主练习/密码学/RSA_KVP_PWD/main.go" />
+        <option value="$PROJECT_DIR$/src/就业班/自主练习/密码学/HASH_PWD/hash.go" />
+        <option value="$PROJECT_DIR$/src/就业班/自主练习/密码学/HASH_PWD/main.go" />
+        <option value="$PROJECT_DIR$/src/就业班/自主练习/密码学/AES_PWD/AES.go" />
+        <option value="$PROJECT_DIR$/src/就业班/自主练习/密码学/密码学练习01/public/setLastGroup.go" />
+        <option value="$PROJECT_DIR$/src/就业班/自主练习/密码学/密码学练习01/AES_PWD_CBC/main.go" />
+        <option value="$PROJECT_DIR$/src/就业班/自主练习/密码学/密码学练习01/AES_PWD_CBC/aes.go" />
+        <option value="$PROJECT_DIR$/src/就业班/自主练习/密码学/密码学练习01/DES_PWD_CBC/des_cbc.go" />
+        <option value="$PROJECT_DIR$/src/就业班/自主练习/密码学/密码学练习01/AES_PWD_CTR/aes_ctr.go" />
+        <option value="C:/Go/src/crypto/cipher/ctr.go" />
+        <option value="$PROJECT_DIR$/src/就业班/自主练习/密码学/密码学练习01/DES_PWD_CTR/des_ctr.go" />
+        <option value="$PROJECT_DIR$/src/就业班/自主练习/密码学/密码学练习01/ThreeDes_PWD_CTR/ThreeDes_CTR.go" />
+        <option value="$PROJECT_DIR$/src/就业班/自主练习/密码学/RSA_KVP_PWD/RSA_KVP_PWD.go" />
+        <option value="$PROJECT_DIR$/src/就业班/自主练习/密码学/密码学练习01/ThreeDes_PWD_CBC/ThreeDES_CBC.go" />
+        <option value="$PROJECT_DIR$/src/就业班/自主练习/密码学/密码学作业/UDP_Chat.go" />
+        <option value="$PROJECT_DIR$/src/基础班/day9/08文件拷贝.go" />
+        <option value="$PROJECT_DIR$/src/就业班/自主练习/密码学/密码学作业/hashValue/hash.go" />
+        <option value="$PROJECT_DIR$/src/就业班/自主练习/密码学/密码学练习01/main.go" />
+        <option value="$PROJECT_DIR$/src/就业班/自主练习/密码学/密码学作业/UDP_Chat/kvp.go" />
+        <option value="$PROJECT_DIR$/src/就业班/自主练习/密码学/密码学练习01/RSA_KVP_PWD/RSA_KVP_PWD.go" />
+        <option value="$PROJECT_DIR$/src/就业班/自主练习/密码学/密码学作业/UDP_Chat/client.go" />
+        <option value="$PROJECT_DIR$/src/就业班/自主练习/密码学/密码学作业/UDP_Chat/server.go" />
+        <option value="$PROJECT_DIR$/src/publicChain/part1-Basic-Prototype/BLC/block.go" />
+        <option value="$PROJECT_DIR$/src/就业班/自主练习/密码学/椭圆曲线签名和认证/main.go" />
+        <option value="$USER_HOME$/AppData/Roaming/Bitcoin/bitcoin.conf" />
+        <option value="$PROJECT_DIR$/src/就业班/自主练习/密码学/消息认证码/main.go" />
+        <option value="$PROJECT_DIR$/src/就业班/自主练习/区块链/day01/demo01/bolt_test.go" />
+        <option value="$PROJECT_DIR$/src/就业班/自主练习/区块链/day01/demo01/gob字节流编码和解码.go" />
+        <option value="$PROJECT_DIR$/src/就业班/自主练习/区块链/day01/demo01/boltTest.go" />
+        <option value="$PROJECT_DIR$/src/就业班/自主练习/区块链/day01/demo01/main.go" />
+        <option value="$PROJECT_DIR$/src/就业班/自主练习/区块链/day01/demo01/run.js" />
+        <option value="$PROJECT_DIR$/src/就业班/自主练习/区块链/day01/demo01/BlockChainIterator.go" />
+        <option value="$PROJECT_DIR$/src/就业班/自主练习/区块链/day01/demo01/base58.go" />
+        <option value="$PROJECT_DIR$/src/github.com/ripemd160/ripemd160.go" />
+        <option value="$PROJECT_DIR$/src/就业班/自主练习/密码学/数字签名/main.go" />
+        <option value="$PROJECT_DIR$/src/就业班/自主练习/区块链/day01/demo01/wallet.go" />
+        <option value="$PROJECT_DIR$/src/就业班/自主练习/区块链/day01/demo01/run.bat" />
+        <option value="$PROJECT_DIR$/src/就业班/自主练习/区块链/day01/demo01/wallets.go" />
+        <option value="$PROJECT_DIR$/src/就业班/自主练习/区块链/day01/demo01/block.go" />
+        <option value="$PROJECT_DIR$/src/就业班/自主练习/区块链/day01/demo01/blockChain.go" />
+        <option value="$PROJECT_DIR$/src/就业班/自主练习/区块链/day01/demo01/transaction.go" />
+        <option value="$PROJECT_DIR$/src/就业班/自主练习/区块链/day01/demo01/proofOfWork.go" />
+        <option value="$PROJECT_DIR$/src/就业班/自主练习/区块链/day01/demo01/commonCli.go" />
+        <option value="$PROJECT_DIR$/src/就业班/自主练习/区块链/day01/demo01/cli.go" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="131" />
+    <option name="y" value="5" />
+    <option name="width" value="1235" />
+    <option name="height" value="719" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="就业班" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="就业班" type="462c0819:PsiDirectoryNode" />
+              <item name="自主练习" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="就业班" type="462c0819:PsiDirectoryNode" />
+              <item name="自主练习" type="462c0819:PsiDirectoryNode" />
+              <item name="区块链" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="就业班" type="462c0819:PsiDirectoryNode" />
+              <item name="自主练习" type="462c0819:PsiDirectoryNode" />
+              <item name="区块链" type="462c0819:PsiDirectoryNode" />
+              <item name="day01" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="就业班" type="462c0819:PsiDirectoryNode" />
+              <item name="自主练习" type="462c0819:PsiDirectoryNode" />
+              <item name="区块链" type="462c0819:PsiDirectoryNode" />
+              <item name="day01" type="462c0819:PsiDirectoryNode" />
+              <item name="demo01" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go Application" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="509&#9;FILE&#9;file://C:/Go/src/crypto/x509/x509.go" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/就业班/自主练习/区块链/day01/demo01" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\go\src\github.com" />
+      <recent name="E:\go\src" />
+      <recent name="E:\go\src\CMS\views\Roles" />
+      <recent name="E:\go\src\CMS\static\img" />
+      <recent name="E:\go\src\CMS\static\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\go\src\github.com" />
+      <recent name="E:\go\src\就业班\自主练习\区块链\day01\demo01" />
+      <recent name="E:\go\src\就业班\自主练习\区块链" />
+      <recent name="E:\go\src\就业班\自主练习\聊天室" />
+      <recent name="E:\go\src\lib" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Go Build.go build 就业班/自主练习/区块链/day01/demo01">
+    <configuration name="go build 就业班/自主练习/区块链/day01/demo01" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <filePath value="$PROJECT_DIR$/src/就业班/自主练习/密码学/椭圆曲线签名和认证/main.go" />
+      <directory value="E:\go\src\就业班\自主练习\区块链\day01\demo01" />
+    </configuration>
+    <configuration name="go build 就业班/自主练习/区块链/day01/demo01" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <filePath value="$PROJECT_DIR$/src/就业班/自主练习/区块链/day01/demo01/boltTest.go" />
+      <directory value="E:\go\src\就业班\自主练习\区块链\day01\demo01" />
+    </configuration>
+    <configuration name="go build 就业班/自主练习/mysql游戏" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <filePath value="$PROJECT_DIR$/src/就业班/自主练习/mysql游戏/main.go" />
+      <directory value="E:\go\src\就业班\自主练习\mysql游戏" />
+    </configuration>
+    <configuration name="go build 返回字符下标.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/demo/返回字符下标.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="go build 多态案例.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/study/day9/多态案例.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="go build 冒泡.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/study/04/冒泡.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="go build 读写锁.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/软文笔记/语法基础/读写锁.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="go build 输出最长字符串.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/讲义练习/输出最长字符串.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="go build 方法继承联系.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/study/day8/方法继承联系.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="go build 爬段子.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/软文笔记/就业班技术点/并发爬虫/爬段子.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="go build 类型断言.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/study/day9/类型断言.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="go build 字典.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/study/10/字典.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="go build 拷贝文件.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/demo/day7/拷贝文件.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="go build 递归.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/study/04/递归.go" />
+      <directory value="E:\go\src" />
+    </configuration>
+    <configuration name="go build 面向对象计算器.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/study/day9/面向对象计算器.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="go build 切片.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/study/05/切片.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="go build 接口计算器.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/study/day9/接口计算器.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="go build 最大最小平均值.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/讲义练习/最大最小平均值.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="go build 双色球.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/study/04/双色球.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="go build 爬段子.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/软文笔记/就业班技术点/并发爬虫/爬段子.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="go build 课堂练习.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/就业班/练习/课堂练习.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="go build 多态练习.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/study/day9/多态练习.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="go build 双色球.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/study/04/双色球.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="go build 豆瓣电影数据爬取.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/软文笔记/就业班技术点/豆瓣电影数据爬取.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="go build 根据给定地址拷贝文件到指定文件夹中.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/就业班/练习/day02/作业习题/根据给定地址拷贝文件到指定文件夹中.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="go build client.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/就业班/自主练习/密码学/密码学作业/UDP_Chat/client.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="go build demo/day14/SecSkill/SecProxy/main" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="E:\go\src\demo\day14\SecSkill\SecProxy\main" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <filePath value="$PROJECT_DIR$/src/demo/day14/SecSkill/SecProxy/main/main.go" />
+      <directory value="E:\go\src\demo\day14\SecSkill\SecProxy\main" />
+      <output_directory value="E:\go\src\demo\day14\SecSkill\SecProxy\main" />
+    </configuration>
+    <configuration name="go build go/" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <filePath value="$PROJECT_DIR$/src/就业班/自主练习/区块链/day01/demo01/gob字节流编码和解码.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="go build gtk" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <filePath value="$PROJECT_DIR$/src/study/day10/main.go" />
+      <directory value="E:\go\src\gtk" />
+    </configuration>
+    <configuration name="go build hero.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/就业班/自主练习/mysql游戏/pk/hero.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/就业班/自主练习/密码学/数字签名/main.go" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build gtk" />
+      <item itemvalue="Go Build.go build demo/day14/SecSkill/SecProxy/main" />
+      <item itemvalue="Go Build.go build 返回字符下标.go" />
+      <item itemvalue="Go Build.go build client.go" />
+      <item itemvalue="Go Build.go build main.go" />
+      <item itemvalue="Go Build.go build 就业班/自主练习/区块链/day01/demo01" />
+      <item itemvalue="Go Build.go build go/" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build 就业班/自主练习/区块链/day01/demo01" />
+        <item itemvalue="Go Build.go build 就业班/自主练习/区块链/day01/demo01" />
+        <item itemvalue="Go Build.go build go/" />
+        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build client.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TestHistory">
+    <history-entry file="gobench_demo_day8_test - 2018.07.13 at 20h 33m 12s.xml">
+      <configuration name="gobench demo/day8/test" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="gobench_demo_day8_test - 2018.07.13 at 20h 33m 42s.xml">
+      <configuration name="gobench demo/day8/test" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="go_test_demo_day8_test - 2018.07.13 at 20h 34m 30s.xml">
+      <configuration name="go test demo/day8/test" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="go_test_demo_day8_test - 2018.07.13 at 20h 34m 44s.xml">
+      <configuration name="go test demo/day8/test" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="gobench_demo_day8_test - 2018.07.13 at 20h 35m 11s.xml">
+      <configuration name="gobench demo/day8/test" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="go_test_demo_day8_test - 2018.07.13 at 20h 35m 32s.xml">
+      <configuration name="go test demo/day8/test" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="gobench_demo_day8_test - 2018.07.13 at 20h 35m 38s.xml">
+      <configuration name="gobench demo/day8/test" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestAdd_in_demo_day8_test - 2018.07.13 at 20h 35m 57s.xml">
+      <configuration name="TestAdd in demo/day8/test" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="douban_test_go - 2018.08.05 at 23h 59m 20s.xml">
+      <configuration name="douban_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="douban_test_go - 2018.08.05 at 23h 59m 51s.xml">
+      <configuration name="douban_test.go" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.820208" visible="true" weight="0.2808311" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32909605" />
+      <window_info anchor="bottom" x="731" y="390" width="74" height="44" id="Event Log" order="7" sideWeight="0.5073727" side_tool="true" type="FLOATING" weight="0.40492475" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3297587" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32952926" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.40085593" />
+      <window_info id="Structure" order="1" sideWeight="0.08955224" side_tool="true" weight="0.17426273" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="13" sideWeight="0.49329758" visible="true" weight="0.01997147" />
+      <window_info id="Favorites" order="2" sideWeight="0.17979197" side_tool="true" weight="0.16353887" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="找到" order="10" weight="0.015669515" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="运行" order="11" sideWeight="0.49262735" weight="0.33333334" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="调试" order="12" sideWeight="0.49932975" weight="0.32905984" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32952926" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.3297587" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="找到" order="10" weight="0.015669515" />
+      <window_info anchor="bottom" id="运行" order="11" sideWeight="0.49262735" weight="0.33333334" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38088444" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.820208" visible="true" weight="0.27345845" />
+      <window_info id="Structure" order="1" sideWeight="0.08955224" side_tool="true" weight="0.17426273" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32909605" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32952926" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3297587" />
+      <window_info anchor="bottom" id="Terminal" order="13" sideWeight="0.49329758" weight="0.09557775" />
+      <window_info anchor="bottom" x="731" y="390" width="74" height="44" id="Event Log" order="7" sideWeight="0.5073727" side_tool="true" type="FLOATING" weight="0.40492475" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32952926" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="调试" order="12" sideWeight="0.49932975" weight="0.32905984" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.3297587" />
+      <window_info id="Favorites" order="2" sideWeight="0.17979197" side_tool="true" weight="0.16353887" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/study/03/乘法口诀表.go</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/study/03/乘法口诀表.go</url>
+          <line>6</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/study/03/百钱百鸡.go</url>
+          <line>12</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/study/04/递归2.go</url>
+          <line>10</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/demo/day8/channel.go</url>
+          <line>28</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/demo/锁.go</url>
+          <line>9</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="29" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/基础班/day9/07读取文件2.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="46" column="22" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/基础班/day9/08文件拷贝.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/就业班/自主练习/密码学/密码学作业/hashValue/hash.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/就业班/自主练习/密码学/HASH_PWD/hash.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1175">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public.pem" />
+    <entry file="file://$PROJECT_DIR$/private.pem" />
+    <entry file="file://$PROJECT_DIR$/src/就业班/自主练习/密码学/密码学练习01/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="60" column="39" lean-forward="true" selection-start-line="60" selection-start-column="39" selection-end-line="60" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/serverkey/privateKey.pem">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-914" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clientkey/privateKey.pem">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-914" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/就业班/练习/day07/01-chatRoom.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/就业班/自主练习/密码学/密码学练习01/AES_PWD_CBC/aes.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/就业班/自主练习/UDP并发服务器/server.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/就业班/自主练习/聊天室/chatRoom.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2700" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/就业班/自主练习/密码学/AES_PWD/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/就业班/自主练习/密码学/AES_PWD/AES.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/就业班/自主练习/密码学/密码学练习01/RSA_KVP_PWD/RSA_KVP_PWD.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="84" column="4" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/publicChain/part1-Basic-Prototype/BLC/block.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/就业班/自主练习/密码学/密码学作业/UDP_Chat/client.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/就业班/自主练习/密码学/密码学作业/UDP_Chat/kvp.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="48" column="70" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/就业班/自主练习/密码学/密码学作业/UDP_Chat/server.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1350">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sign/publicKey.pem">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sign/privateKey.pem">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/就业班/自主练习/密码学/RSA_KVP_PWD/RSA_KVP_PWD.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-575">
+          <caret line="82" column="20" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/crypto/x509/x509.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="110" column="26" selection-start-line="110" selection-start-column="26" selection-end-line="110" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ecc/eccprivateKey.pem">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ecc/eccpublicKey.pem">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Bitcoin/bitcoin.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/就业班/自主练习/区块链/01_bitcoin/demo/totalBtc.go" />
+    <entry file="file://$PROJECT_DIR$/src/就业班/自主练习/密码学/消息认证码/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/os/proc.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="64" column="22" lean-forward="true" selection-start-line="64" selection-start-column="22" selection-end-line="64" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/就业班/自主练习/区块链/day01/demo01/单一功能测试/gob字节流编码和解码.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/就业班/自主练习/区块链/day01/demo01/单一功能测试/boot数据库使用测试.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/bolt-master/db.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-825">
+          <caret line="149" column="14" selection-start-line="149" selection-start-column="10" selection-end-line="149" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/就业班/自主练习/区块链/day01/demo01/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/base58/doc.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/就业班/自主练习/区块链/day01/demo01/base58.go" />
+    <entry file="file://$PROJECT_DIR$/src/github.com/base58/base58.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/github.com/ripemd160/ripemd160.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Go/src/bytes/bytes_decl.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/就业班/自主练习/密码学/椭圆曲线签名和认证/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="632">
+          <caret line="61" column="30" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/就业班/自主练习/密码学/数字签名/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2525">
+          <caret line="110" column="11" selection-start-line="110" selection-start-column="11" selection-end-line="110" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/就业班/自主练习/区块链/day01/demo01/run.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/就业班/自主练习/区块链/day01/demo01/BlockChainIterator.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="e#14#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/就业班/自主练习/区块链/day01/demo01/block.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2200">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/就业班/自主练习/区块链/day01/demo01/wallets.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/就业班/自主练习/区块链/day01/demo01/blockChain.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3075">
+          <caret line="131" column="29" selection-start-line="131" selection-start-column="29" selection-end-line="131" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/就业班/自主练习/区块链/day01/demo01/proofOfWork.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1500">
+          <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/就业班/自主练习/区块链/day01/demo01/wallet.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1325">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/就业班/自主练习/区块链/day01/demo01/cli.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="49" column="35" selection-start-line="49" selection-start-column="35" selection-end-line="49" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/就业班/自主练习/区块链/day01/demo01/commonCli.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5">
+          <caret line="105" column="49" selection-start-line="105" selection-start-column="39" selection-end-line="105" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/就业班/自主练习/区块链/day01/demo01/transaction.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="143" column="41" selection-start-line="143" selection-start-column="35" selection-end-line="143" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

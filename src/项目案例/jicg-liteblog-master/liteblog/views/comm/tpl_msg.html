@@ -1,0 +1,18 @@
+<div class="info-box">
+    <div class="info-item">
+        <img class="info-img" src="{{if .User.Avatar }}{{ .User.Avatar }}{{else}}/static/images/info-img.png{{end}}"
+             alt="">
+        <div class="info-text">
+            <p class="title count">
+                <span class="name">{{ .User.Name }}</span>
+                <span class="info-img like" data-key="{{.Key}}" data-type="message">
+                    <i class="layui-icon layui-icon-praise"></i>
+                    <span class="value"> {{ .Praise }}</span>
+                    </span>
+            </p>
+            <p class="info-intr">
+            {{ .Content }}
+            </p>
+        </div>
+    </div>
+</div>

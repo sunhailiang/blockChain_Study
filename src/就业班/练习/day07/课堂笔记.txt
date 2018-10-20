@@ -1,0 +1,28 @@
+
+广播用户上线：
+
+	1. 主go程中，创建监听套接字。 记得defer
+
+	2. for 循环监听客户端连接请求。Accept()
+
+	3. 有一个客户端连接，创建新 go 程 处理客户端数据 HandlerConnet(conn)	defer
+
+	4. 定义全局结构体类型  C 、Name、Addr
+
+	5. 创建全局map、channel
+
+	6. 实现HandlerConnet， 获取客户端IP+port —— RemoteAddr()。 初始化新用户结构体信息。   name == Addr
+
+	7. 创建 Manager 实现管理go程。 —— Accept() 之前。
+
+	8. 实现 Manager 。 初始化 在线用户 map。 循环 读取全局 channel，如果无数据，阻塞。 如果有数据， 遍历在线用户 map ，将数据写到 用户的 C 里
+
+	9. 将新用户添加到 在线用户 map 中 。 Key == IP+port  value= 新用户结构体
+
+	10. 创建 WriteMsgToClient go程，专门给当前用户写数据。 —— 来源于 用户自带的 C 中 
+
+	11. 实现 WriteMsgToClient（clnt，conn） 。遍历自带的 C ，读数据，conn.Write 到 客户端。
+
+	12. HandlerConnet中，结束位置，组织用户上线信息， 将 用户上线信息 写 到全局 channel  —— Manager 的读就被激活（原来一直阻塞）
+
+	13. HandlerConnet中，结尾 加 for { ；}

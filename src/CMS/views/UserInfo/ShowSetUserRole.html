@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>角色分配</title>
+</head>
+<style>
+    li{
+        list-style: none;
+    }
+</style>
+<body>
+为用户<span style="font-size:14px;color:red;font-weight: bolder">{{.user.UserName}}</span>分配角色
+<div>
+    已有权限：
+  <ul>
+      {{range $index,$item:=.userExtRoles}}
+      <li><input type="checkbox" checked="checked" >{{$item.RoleName}}</li>
+      {{end}}
+  </ul>
+   所有权限：
+    <ul>
+    {{range $index,$item:=.allRolws}}
+        <li><input type="checkbox" >{{$item.RoleName}}</li>
+    {{end}}
+    </ul>
+</div>
+</body>
+</html>

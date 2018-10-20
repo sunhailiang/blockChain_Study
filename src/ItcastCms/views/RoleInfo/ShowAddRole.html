@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>添加角色信息</title>
+    <script type="text/javascript" src="/static/js/jquery.js"></script>
+    <script type="text/javascript" src="/static/js/jquery.unobtrusive-ajax.min.js"></script>
+    <script type="text/javascript">
+        //提交表单
+      function SubForm() {
+          $("#addForm").submit()
+
+      }
+      //回调函数
+      function afterAdd(data) {
+
+            window.parent.AfterAdd(data)
+
+      }
+
+    </script>
+</head>
+<body>
+  <form data-ajax="true" data-ajax-method="post" data-ajax-success="afterAdd" data-ajax-url="/Admin/RoleInfo/AddRole" id="addForm">
+      <table>
+          <tr><td>角色名称</td><td><input type="text" name="roleName"></td> </tr>
+          <tr><td>备注</td><td><input type="text" name="roleRemark"> </td></tr>
+      </table>
+  </form>
+</body>
+</html>

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>权限管理</title>
+    <script type="text/javascript" src="/static/js/jquery.js"></script>
+    <script type="text/javascript" src="/static/js/jquery.easyui.min.js"></script>
+    <script type="text/javascript" src="/static/js/easyui-lang-zh_CN.js"></script>
+    <script type="text/javascript" src="/static/js/MyAjaxForm.js"></script>
+    <script type="text/javascript" src="/static/js/jquery.unobtrusive-ajax.min.js"></script>
+    <link href="/static/css/themes/default/easyui.css" rel="stylesheet" />
+    <link href="/static/css/themes/icon.css" rel="stylesheet" />
+    <script type="text/javascript">
+        $(function () {
+            loadData();
+            $("#addActionDiv").css("display","none");
+            bindChangeActionTypeEnum();//给权限的类别下拉框绑定change事件
+            bindFileUp();//当页面加载完成后，绑定单击事件，完成上传。
+        })
+        function loadData() {
+            $('#tt').datagrid({
+                url: '/Admin/ActionInfo/GetActionInfo',
+                title: '权限数据表格',
+                width: 700,
+                height: 400,
+                fitColumns: true, //列自适应
+                nowrap: false,
+                idField: 'Id',//主键列的列明
+                loadMsg: '正在加载权限的信息...',
+                pagination: true,//是否有分页
+                singleSelect: false,//是否单行选择
+                pageSize:5,//页大小，一页多少条数据
+                pageNumber: 1,//当前页，默认的
+                pageList: [2, 5, 10],
+                queryParams: {},//往后台传递参数
+                columns: [[//c.UserName, c.UserPass, c.Email, c.RegTime
+                    { field: 'ck', checkbox: true, align: 'left', width: 50 },
+                    { field: 'Id', title: '编号', width: 80 },
+                    { field: 'ActionInfoName', title: '权限名称', width: 120 },
+                    { field: 'HttpMethod', title: '请求方式', width: 120 },
+                    { field: 'Url', title: '请求地址', width: 120 },
+                    { field: 'Remark', title: '备注', width: 120 },
+                    { field: 'ActionTypeEnum', title: '权限类型', width: 120,
+                        formatter:function (value,row,index) {
+                            return value=="1"?"菜单权限":"普通权限"
+                        }
+                    },
+                    { field: 'AddDate', title: '时间', width: 120, align: 'right',
+                        formatter: function (value, row, index) {
+                            return value.split('T')[0]
+                        }
+                    }
+                ]],
+                toolbar: [{
+                    id: 'btnDelete',
+                    text: '删除',
+                    iconCls: 'icon-remove',
+                    handler: function () {
+
+
+                    }
+                },{
+                    id:'btnAdd',
+                    text:'添加',
+                    iconCls:'icon-add',
+                    handler:function () {
+                        showAddAction();
+                    }
+                },{
+                    id:'btnEdit',
+                    text:'编辑',
+                    iconCls:'icon-edit',
+                    handler:function () {
+
+                    }
+                }],
+            });
+        }
+        //展示添加的表单
+        function showAddAction() {
+            $("#addActionDiv").css("display","block");
+            $("#addActionDiv").dialog({
+                title: '添加权限信息',
+                width: 400,
+                height: 500,
+                collapsible: true, //可折叠
+                maximizable: true, //最大化
+                resizable: true,//可缩放
+                modal: true,//模态，表示只有将该窗口关闭才能修改页面中其它内容
+                buttons: [{ //按钮组
+                    text: 'Ok',//按钮上的文字
+                    iconCls: 'icon-ok',
+                    handler: function () {
+                        //1:获取表单中的数据
+                        //2:发送服务端。
+                        $("#form1").submit();
+                    }
+                }, {
+                    text: 'Cancel',
+                    handler: function () {
+                        $('#addActionDiv').dialog('close');
+                    }
+                }]
+            });
+        }
+        
+        //给权限的类别下拉框绑定change事件
+        function bindChangeActionTypeEnum() {
+            $("#changeActionTypeEnum").change(function () {
+                if ($(this).val()=="1"){
+                    $("#iconTr").fadeIn();
+                }else{
+                    $("#iconTr").fadeOut();
+                }
+            })
+        }
+        
+        //实现上传
+        function bindFileUp() {
+            $("#btnFileUp").click(function () {
+                $("#form1").ajaxSubmit({
+                    success: function (data) {
+                        //对上传成功后，返回的路径进行处理。
+                        if (data.flag=="ok"){
+                            var src=data.msg.substr(1);//返回的是路径
+                            $("#showImage").html("<img src='"+src+"' width='50px' height='50px'>");
+                            //将上传成功返回的图片路径赋值给隐藏域。
+                            $("#hiddenMenuIcon").val(src);
+                        }else{
+
+                        }
+                    },
+                    error: function (error) { alert(error); },
+                    url: '/Admin/ActionInfo/FileUp', /*设置post提交到的页面*/
+                    type: "post", /*设置表单以post方法提交*/
+                    dataType: "json" /*设置返回值类型为文本*/
+                });
+            })
+        }
+        //添加权限成功后调用
+        function  AfterAdd(data) {
+            if (data.flag=="ok"){
+                $("#tt").datagrid('reload');
+                $('#addActionDiv').dialog('close');
+            }
+        }
+
+    </script>
+</head>
+<body>
+<table id="tt" style="width: 700px;" title="标题，可以使用代码进行初始化，也可以使用这种属性的方式" iconcls="icon-edit">
+</table>
+<div id="addActionDiv">
+    <form  data-ajax="true" data-ajax-method="post" data-ajax-success="AfterAdd" data-ajax-url="/Admin/ActionInfo/AddAction" id="form1">
+        <input type="hidden" name="MenuIcon" id="hiddenMenuIcon" />
+        <table>
+            <tr>
+                <td>权限名称</td>
+                <td>
+                    <input type="text" name="ActionInfoName" /></td>
+            </tr>
+            <tr>
+                <td>Url</td>
+                <td>
+                    <input type="text" name="Url" /></td>
+            </tr>
+            <tr>
+                <td>请求方式</td>
+                <td>
+                    <select name="HttpMethod">
+                        <option value="GET">GET</option>
+                        <option value="POST">POST</option>
+                    </select>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td>权限类型</td>
+                <td>
+                    <select name="ActionTypeEnum" id="changeActionTypeEnum">
+                        <option value="0">普通权限</option>
+                        <option value="1">菜单权限</option>
+                    </select>
+
+                </td>
+            </tr>
+
+            <tr style="display:none" id="iconTr">
+                <td>上传图标</td>
+                <td>
+                    <input type="file" name="fileUp" /><!--文件上传域-->
+                    <input type="button" value="上传图片" id="btnFileUp" />
+                    <div id="showImage">
+
+                    </div>
+
+                </td>
+            </tr>
+
+
+            <tr>
+                <td>备注</td>
+                <td>
+                    <input type="text" name="Remark" /></td>
+            </tr>
+
+        </table>
+
+
+    </form>
+</div>
+
+
+</body>
+</html>
